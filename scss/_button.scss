@@ -1,0 +1,22 @@
+.button {
+  background-color: $color-secondary;
+  color: $color-white;
+  padding: 10px 36px;
+  border-radius: 30px;
+  text-decoration: none;
+
+  &:hover {
+    background-color: $color-pastry;
+    color: $color-white;
+  }
+
+  &--invert {
+    background-color: transparent;
+    border: 1px solid $color-white;
+
+    &:hover {
+      background-color: $color-transparent;
+    }
+
+  }
+}
