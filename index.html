@@ -2,20 +2,50 @@
 <html lang="pt-br">
 <head>
   <title>Bootstrap e Sass</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="./styles/reset.css" rel="stylesheet" />
   <link href="./styles/styles.css" rel="stylesheet" />
 </head>
 <body>
-  <section class="hero p-3">
+  <section class="hero">
     <div class="container">
       <div class="row">
-        <div class="col-12">
-          <h1 class="hero__title">EMPOWER YOUR BUSINESS</h1>
-          <p class="hero__subtitle">We know how large objects will act, but things on a small scale just do not act that way.</p>
+        <div class="col-10 offset-1">
+          <div class="hero__box">
+            <h1 class="hero__title">EMPOWER YOUR BUSINESS</h1>
+            <p class="hero__subtitle">We know how large objects will act, but things on a small scale just do not act that way.</p>
+          </div>
         </div>
-        <div class="col-sm-12 col-lg-6">
-          <a href="#" class="button button__hover">Get Quote Now</a>
-          <a href="#" class="button button--invert">Learn More</a>
+        <div class="col-12">
+          <div class="hero__display text-center">
+            <a href="#" class="button button__hover">Get Quote Now</a>
+            <a href="#" class="button button--invert">Learn More</a>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="hero__card__box">
+            <img src="./images/settings-hero.png">
+            <h1 class="hero__card__title">Web Development</h1>
+            <p class="hero__card__subtitle">We focus on ergonomics and meeting you where you work. </p>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="hero__card__box">
+            <img src="./images/settings-hero.png">
+            <h1 class="hero__card__title">Business Growing</h1>
+            <p class="hero__card__subtitle">Just type what's on your mind and we'll get you there.</p>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="hero__card--invert">
+            <img src="./images/settings_inverted-hero.png">
+            <h1 class="hero__card--invert__title">Web Development</h1>
+            <p class="hero__card--invert__subtitle">the quick fox jumps over the lazy dog</p>
+          </div>
+        </div>
+
+
+
         </div>
       </div>
     </div>
