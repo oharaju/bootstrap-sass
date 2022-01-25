@@ -28,13 +28,15 @@
   }
 
   &__card {
-    //**display: flex;
-    //**flex-direction: column;
+    background-color: $color-white;
+    margin-bottom: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 
-    &__box {
-      background-color: $color-white;
-      margin-bottom: 20px;
-      padding: 30px;
+    &__image {
+      width: 50px;
     }
 
     &__title {
@@ -52,6 +54,9 @@
     &--invert {
       background-color: $color-four;
       padding: 30px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
 
       &__title {
         color: $color-white;
