@@ -11141,7 +11141,7 @@ textarea.form-control-lg {
 .hero {
   color: #fff;
   background-color: #252B42;
-  padding: 40px;
+  padding: 80px 40px;
 }
 .hero__box {
   text-align: center;
@@ -11165,14 +11165,17 @@ textarea.form-control-lg {
 }
 .hero__card {
   background-color: #fff;
-  margin-bottom: 20px;
   padding: 30px;
   display: flex;
   flex-direction: column;
   gap: 10px;
+  margin-bottom: 30px;
 }
-.hero__card__image {
-  width: 50px;
+.hero__card--invert {
+  background-color: #00A0C1;
+}
+.hero__card--invert .hero__card__title, .hero__card--invert .hero__card__subtitle {
+  color: #fff;
 }
 .hero__card__title {
   color: #252B42;
@@ -11184,22 +11187,21 @@ textarea.form-control-lg {
   font-size: 14px;
   font-weight: lighter;
 }
-.hero__card--invert {
-  background-color: #00A0C1;
-  padding: 30px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+.hero__card__image {
+  width: 50px;
 }
-.hero__card--invert__title {
-  color: #fff;
-  font-size: 24px;
-  font-weight: bold;
-}
-.hero__card--invert__subtitle {
-  color: #fff;
-  font-size: 14px;
-  font-weight: lighter;
+
+@media (min-width: 768px) {
+  .hero__card {
+    height: 100%;
+    margin-bottom: 0;
+  }
+  .hero__display {
+    flex-direction: row;
+  }
+  .hero__box {
+    text-align: left;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,7 +1,7 @@
 .hero {
   color: $color-white;
   background-color: $color-primary;
-  padding: 40px;
+  padding: 80px 40px;
 
   &__box {
     text-align: center;
@@ -29,14 +29,20 @@
 
   &__card {
     background-color: $color-white;
-    margin-bottom: 20px;
     padding: 30px;
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin-bottom: 30px;
 
-    &__image {
-      width: 50px;
+    $card: &;
+
+    &--invert {
+      background-color: $color-four;
+
+      #{$card}__title, #{$card}__subtitle {
+        color: $color-white;
+      }
     }
 
     &__title {
@@ -51,24 +57,25 @@
       font-weight: lighter;
     }
 
-    &--invert {
-      background-color: $color-four;
-      padding: 30px;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
+    &__image {
+      width: 50px;
+    }
+  }
+}
 
-      &__title {
-        color: $color-white;
-        font-size: 24px;
-        font-weight: bold;
-      }
+@include tablet{
+  .hero {
+    &__card{
+      height: 100%;
+      margin-bottom: 0;
+    }
 
-      &__subtitle {
-        color: $color-white;
-        font-size: 14px;
-        font-weight: lighter;
-      }
+    &__display{
+      flex-direction: row;
+    }
+
+    &__box {
+      text-align: left;
     }
   }
 }
