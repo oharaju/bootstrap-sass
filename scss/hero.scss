@@ -1,7 +1,7 @@
 .hero {
   color: $color-white;
   background-color: $color-primary;
-  padding: 80px 40px;
+  padding: 80px;
 
   &__box {
     text-align: center;
@@ -65,6 +65,7 @@
 
 @include tablet{
   .hero {
+    padding: 70px 90px;
     &__card{
       height: 100%;
       margin-bottom: 0;

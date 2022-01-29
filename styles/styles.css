@@ -11141,7 +11141,7 @@ textarea.form-control-lg {
 .hero {
   color: #fff;
   background-color: #252B42;
-  padding: 80px 40px;
+  padding: 80px;
 }
 .hero__box {
   text-align: center;
@@ -11192,6 +11192,9 @@ textarea.form-control-lg {
 }
 
 @media (min-width: 768px) {
+  .hero {
+    padding: 70px 90px;
+  }
   .hero__card {
     height: 100%;
     margin-bottom: 0;
@@ -11202,6 +11205,45 @@ textarea.form-control-lg {
   .hero__box {
     text-align: left;
   }
+}
+.content {
+  color: #fff;
+  background-color: #252B42;
+  padding: 80px;
+}
+.content__title {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.content__subtitle {
+  font-size: 20px;
+  font-weight: lighter;
+  margin-bottom: 50px;
+}
+.content__wrapper {
+  text-align: center;
+}
+.content__card {
+  background-color: #fff;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.content__card__title {
+  color: #252B42;
+  font-size: 16px;
+}
+.content__card__subtitle {
+  color: #737373;
+  font-size: 14px;
+}
+.content__card__box {
+  padding: 30px;
+}
+.content__image {
+  width: 100%;
 }
 
 /*# sourceMappingURL=styles.css.map */
