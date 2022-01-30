@@ -13,6 +13,10 @@
     font-weight: bold;
     margin-bottom: 40px;
     text-align: center;
+
+    &--align {
+      text-align: unset;
+    }
   }
 
   &__subtitle {
@@ -20,6 +24,10 @@
     font-weight: lighter;
     margin-bottom: 80px;
     text-align: center;
+
+    &--align {
+      text-align: unset;
+    }
   }
 
   &__image {
@@ -59,5 +67,4 @@
       width: 50%;
     }
   }
-
 }
