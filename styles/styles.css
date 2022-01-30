@@ -11260,11 +11260,18 @@ textarea.form-control-lg {
   font-size: 40px;
   font-weight: bold;
   margin-bottom: 40px;
+  text-align: center;
 }
 .depositions__subtitle {
   font-size: 20px;
   font-weight: lighter;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+.depositions__image {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 .depositions__main {
   display: flex;
@@ -11275,6 +11282,21 @@ textarea.form-control-lg {
 .depositions__main__text {
   font-size: 16px;
   font-weight: bold;
+}
+
+@media (min-width: 992px) {
+  .depositions__box {
+    margin-top: 0;
+    text-align: unset;
+  }
+  .depositions__container {
+    display: flex;
+    gap: 100px;
+  }
+  .depositions__image {
+    overflow: visible;
+    width: 50%;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
