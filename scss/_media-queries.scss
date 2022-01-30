@@ -1,10 +1,28 @@
-@mixin tablet {
-  @media (min-width: #{$tablet-width}) {
+@mixin sm {
+  @media (min-width: #{$sm-width}) {
     @content;
   }
 }
-@mixin desktop {
-  @media (min-width: #{$desktop-width}) {
+@mixin md {
+  @media (min-width: #{$md-width}) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media (min-width: #{$lg-width}) {
+    @content;
+  }
+}
+
+@mixin xl {
+  @media (min-width: #{$xl-width}) {
+    @content;
+  }
+}
+
+@mixin xxl {
+  @media (min-width: #{$xxl-width}) {
     @content;
   }
 }

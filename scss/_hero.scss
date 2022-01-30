@@ -63,9 +63,9 @@
   }
 }
 
-@include tablet{
+@include md {
   .hero {
-    padding: 70px 90px;
+
     &__card{
       height: 100%;
       margin-bottom: 0;

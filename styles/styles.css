@@ -11192,9 +11192,6 @@ textarea.form-control-lg {
 }
 
 @media (min-width: 768px) {
-  .hero {
-    padding: 70px 90px;
-  }
   .hero__card {
     height: 100%;
     margin-bottom: 0;
@@ -11229,7 +11226,6 @@ textarea.form-control-lg {
   margin-bottom: 30px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
 }
 .content__card__title {
   color: #252B42;
@@ -11244,6 +11240,12 @@ textarea.form-control-lg {
 }
 .content__image {
   width: 100%;
+}
+
+@media (min-width: 768px) {
+  .content__card__box {
+    min-height: 170px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

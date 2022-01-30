@@ -24,7 +24,6 @@
     margin-bottom: 30px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
 
     &__title {
       color: $color-primary;
@@ -43,5 +42,13 @@
 
   &__image {
     width: 100%;
+  }
+}
+
+@include md {
+  .content {
+    &__card__box {
+      min-height: 170px;
+    }
   }
 }
