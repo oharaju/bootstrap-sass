@@ -11247,5 +11247,34 @@ textarea.form-control-lg {
     min-height: 170px;
   }
 }
+.depositions {
+  color: #fff;
+  background-color: #252B42;
+  padding: 80px;
+}
+.depositions__box {
+  text-align: center;
+  margin-top: 60px;
+}
+.depositions__title {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.depositions__subtitle {
+  font-size: 20px;
+  font-weight: lighter;
+  margin-bottom: 50px;
+}
+.depositions__main {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+.depositions__main__text {
+  font-size: 16px;
+  font-weight: bold;
+}
 
 /*# sourceMappingURL=styles.css.map */
