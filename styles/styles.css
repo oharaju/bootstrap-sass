@@ -11141,7 +11141,7 @@ textarea.form-control-lg {
 .hero {
   color: #fff;
   background-color: #252B42;
-  padding: 80px;
+  padding: 80px 0;
 }
 .hero__box {
   text-align: center;
@@ -11206,7 +11206,7 @@ textarea.form-control-lg {
 .content {
   color: #fff;
   background-color: #252B42;
-  padding: 80px;
+  padding: 80px 0;
 }
 .content__title {
   font-size: 40px;
@@ -11250,7 +11250,7 @@ textarea.form-control-lg {
 .depositions {
   color: #fff;
   background-color: #252B42;
-  padding: 80px;
+  padding: 80px 0;
 }
 .depositions__box {
   text-align: center;
@@ -11317,7 +11317,7 @@ textarea.form-control-lg {
   margin-bottom: 50px;
 }
 .partners__form {
-  background-color: #16697A;
+  background-color: #252B42;
   padding: 30px 0;
   color: white;
 }
@@ -11343,6 +11343,43 @@ textarea.form-control-lg {
 }
 .partners__form__box {
   display: flex;
+}
+.partners__row {
+  background-color: #16697A;
+  padding: 20px 0;
+}
+
+@media (min-width: 576px) {
+  .partners__form {
+    background-color: #16697A;
+    padding: 0;
+  }
+}
+@media (min-width: 768px) {
+  .partners__form {
+    background-color: #252B42;
+  }
+  .partners__form__title {
+    text-align: left;
+  }
+  .partners__main {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .partners__image {
+    width: 90%;
+  }
+  .partners__row {
+    padding: 30px 0;
+  }
+}
+@media (min-width: 1200px) {
+  .partners__row {
+    background-color: #16697A;
+  }
+  .partners__form__title {
+    text-align: left;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

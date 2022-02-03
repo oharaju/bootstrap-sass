@@ -12,7 +12,7 @@
   }
 
   &__form {
-    background-color: $color-five;
+    background-color: $color-primary;
     padding: 30px 0;
     color: white;
 
@@ -41,6 +41,61 @@
 
     &__box {
       display: flex;
+    }
+  }
+
+  &__row {
+    background-color: $color-five;
+    padding: 20px 0;
+  }
+}
+
+
+@include sm {
+  .partners {
+
+    &__form {
+      background-color: $color-five;
+      padding: 0;
+    }
+  }
+}
+
+@include md {
+  .partners {
+
+    &__form {
+      background-color: $color-primary;
+    }
+
+    &__form__title {
+      text-align: left;
+    }
+
+    &__main {
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    &__image {
+      width: 90%;
+    }
+
+    &__row {
+      padding: 30px 0;
+    }
+  }
+}
+
+@include xl {
+  .partners {
+
+    &__row {
+      background-color: $color-five;
+    }
+
+    &__form__title {
+      text-align: left;
     }
   }
 }
