@@ -11451,5 +11451,42 @@ textarea.form-control-lg {
     margin-top: -40px;
   }
 }
+.footer {
+  color: #fff;
+  background-color: #252B42;
+  padding: 80px 0;
+}
+.footer__box {
+  padding: 40px 50px;
+}
+.footer__title {
+  font-size: 24px;
+  font-weight: bold;
+}
+.footer__subtitle {
+  font-size: 16px;
+  font-weight: lighter;
+  margin-bottom: 50px;
+}
+.footer__container {
+  background-color: #16697A;
+  padding-top: 30px;
+}
+.footer__space {
+  margin-bottom: 50px;
+}
+.footer__list {
+  padding-left: 0;
+}
+.footer__list__title {
+  font-size: 16px;
+  font-weight: bold;
+}
+.footer__list__link {
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+  padding-left: 1px;
+}
 
 /*# sourceMappingURL=styles.css.map */
