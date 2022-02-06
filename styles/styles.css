@@ -11442,4 +11442,14 @@ textarea.form-control-lg {
   color: #f7e8e8;
 }
 
+@media (min-width: 992px) {
+  .contact__subtitle {
+    margin-bottom: 100px;
+  }
+  .contact__card--invert {
+    padding: 90px 30px;
+    margin-top: -40px;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */

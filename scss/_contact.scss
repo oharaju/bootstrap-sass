@@ -71,8 +71,23 @@
           color: #f7e8e8;
         }
       }
+    }
+  }
+}
 
+@include lg {
+  .contact {
 
+    &__subtitle {
+      margin-bottom: 100px;
+    }
+
+    &__card {
+
+      &--invert {
+        padding: 90px 30px;
+        margin-top: -40px;
+      }
     }
   }
 }
