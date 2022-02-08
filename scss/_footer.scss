@@ -4,7 +4,7 @@
   padding: 80px 0;
 
   &__box {
-    padding: 40px 50px;
+    padding: 40px 0px;
   }
 
   &__title {
@@ -39,7 +39,45 @@
       font-size: 14px;
       color: $color-white;
       text-decoration: none;
-      padding-left: 1px;
-    }
+
+      &:hover {
+        color: $color-eight;
+      }
     }
   }
+
+  &__contact {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  &__social {
+    font-size: 16px;
+    margin: 40px 0 30px;
+  }
+
+  &__main {
+    display: flex;
+    gap: 20px;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .footer {
+
+    &__box {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__register {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+    }
+  }
+
+
+}

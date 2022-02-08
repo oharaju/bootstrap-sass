@@ -11457,7 +11457,7 @@ textarea.form-control-lg {
   padding: 80px 0;
 }
 .footer__box {
-  padding: 40px 50px;
+  padding: 40px 0px;
 }
 .footer__title {
   font-size: 24px;
@@ -11486,7 +11486,35 @@ textarea.form-control-lg {
   font-size: 14px;
   color: #fff;
   text-decoration: none;
-  padding-left: 1px;
+}
+.footer__list__link:hover {
+  color: #5289d1;
+}
+.footer__contact {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.footer__social {
+  font-size: 16px;
+  margin: 40px 0 30px;
+}
+.footer__main {
+  display: flex;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .footer__box {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer__register {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
