@@ -3,10 +3,6 @@
   background-color: $color-primary;
   padding: 80px 0;
 
-  &__box {
-    padding: 40px 0px;
-  }
-
   &__title {
     font-size: 24px;
     font-weight: bold;
@@ -61,6 +57,10 @@
   &__main {
     display: flex;
     gap: 20px;
+  }
+
+  &__register {
+    margin-bottom: 50px;
   }
 }
 

@@ -11456,9 +11456,6 @@ textarea.form-control-lg {
   background-color: #252B42;
   padding: 80px 0;
 }
-.footer__box {
-  padding: 40px 0px;
-}
 .footer__title {
   font-size: 24px;
   font-weight: bold;
@@ -11503,6 +11500,9 @@ textarea.form-control-lg {
 .footer__main {
   display: flex;
   gap: 20px;
+}
+.footer__register {
+  margin-bottom: 50px;
 }
 
 @media (min-width: 768px) {
