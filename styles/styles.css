@@ -11463,7 +11463,7 @@ textarea.form-control-lg {
 .footer__subtitle {
   font-size: 16px;
   font-weight: lighter;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 .footer__container {
   background-color: #16697A;
@@ -11514,6 +11514,25 @@ textarea.form-control-lg {
     display: flex;
     align-items: center;
     gap: 40px;
+  }
+}
+@media (min-width: 992px) {
+  .footer__register {
+    justify-content: space-between;
+  }
+  .footer__last {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+@media (min-width: 1200px) {
+  .footer__register {
+    justify-content: space-around;
+  }
+  .footer__last {
+    justify-content: flex-start;
+    gap: 90px;
   }
 }
 

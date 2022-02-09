@@ -11,7 +11,7 @@
   &__subtitle {
     font-size: 16px;
     font-weight: lighter;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
   }
 
   &__container {
@@ -78,6 +78,33 @@
       gap: 40px;
     }
   }
+}
 
+@include media-breakpoint-up(lg) {
+  .footer {
 
+    &__register {
+      justify-content: space-between;
+    }
+
+    &__last {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  .footer {
+
+    &__register {
+      justify-content: space-around;
+    }
+
+    &__last {
+      justify-content: flex-start;
+      gap: 90px;
+    }
+  }
 }
