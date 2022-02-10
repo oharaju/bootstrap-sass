@@ -3,6 +3,10 @@
   background-color: $color-primary;
   padding: 80px 0;
 
+  &__wrapper {
+    text-align: center
+  }
+
   &__title {
     font-size: 40px;
     font-weight: bold;
@@ -13,10 +17,6 @@
     font-size: 20px;
     font-weight: lighter;
     margin-bottom: 50px;
-  }
-
-  &__wrapper {
-    text-align: center
   }
 
   &__card {
@@ -45,7 +45,7 @@
   }
 }
 
-@include md {
+@include media-breakpoint-up(md) {
   .content {
     &__card__box {
       min-height: 170px;

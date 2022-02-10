@@ -1,14 +1,14 @@
 {
   "name": "bootstrap-sass",
   "version": "1.0.0",
-  "description": "",
+  "description": "package using bootstrap",
   "main": "index.js",
   "scripts": {
     "start": "npm-run-all --parallel live sass",
     "sass": "sass --watch scss:styles",
     "live": "live-server"
   },
-  "author": "",
+  "author": "Julia Ohara <juliaohara.br@gmail.com> (https://github.com/oharaju)",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.1.3",

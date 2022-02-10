@@ -63,7 +63,7 @@
   }
 }
 
-@include md {
+@include media-breakpoint-up(md) {
   .hero {
 
     &__card{

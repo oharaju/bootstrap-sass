@@ -75,7 +75,7 @@
   }
 }
 
-@include lg {
+@include media-breakpoint-up(lg) {
   .contact {
 
     &__subtitle {

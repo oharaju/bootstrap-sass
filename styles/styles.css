@@ -11208,6 +11208,9 @@ textarea.form-control-lg {
   background-color: #252B42;
   padding: 80px 0;
 }
+.content__wrapper {
+  text-align: center;
+}
 .content__title {
   font-size: 40px;
   font-weight: bold;
@@ -11217,9 +11220,6 @@ textarea.form-control-lg {
   font-size: 20px;
   font-weight: lighter;
   margin-bottom: 50px;
-}
-.content__wrapper {
-  text-align: center;
 }
 .content__card {
   background-color: #fff;

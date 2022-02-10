@@ -51,7 +51,7 @@
 }
 
 
-@include sm {
+@include media-breakpoint-up(sm) {
   .partners {
 
     &__form {
@@ -61,7 +61,7 @@
   }
 }
 
-@include md {
+@include media-breakpoint-up(md) {
   .partners {
 
     &__form {
@@ -87,7 +87,7 @@
   }
 }
 
-@include xl {
+@include media-breakpoint-up(xl) {
   .partners {
 
     &__row {
