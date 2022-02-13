@@ -43,3 +43,16 @@ I chose to use:
 * CSS Reset - Clears browser styling patterns 
 * [BEM](http://getbem.com/introduction/) - writing methodology
 
+
+
+
+### Mobile
+
+<img width="250" alt="mobile" src="https://user-images.githubusercontent.com/93061504/153734467-cfcaa6e8-e32d-4311-b2e3-06bbe5e290d7.png">
+
+
+
+
+### Desktop
+
+<img width="500" alt="desktop" src="https://user-images.githubusercontent.com/93061504/153734538-95a46676-ea49-4b00-bf02-ba11d2ba0ff2.png">
