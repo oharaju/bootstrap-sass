@@ -11135,7 +11135,7 @@ textarea.form-control-lg {
   border: 1px solid #fff;
 }
 .button--invert:hover {
-  background-color: rgba(236, 226, 212, 0.911);
+  background-color: transparent;
 }
 
 .hero {
